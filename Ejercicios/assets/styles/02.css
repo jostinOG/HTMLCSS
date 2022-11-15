@@ -1,0 +1,14 @@
+.submit_btn {
+    margin: 1em;
+    border: 2px solid skyblue;
+
+
+}
+
+.reset_btn {
+    border: 2px solid red;
+}
+
+.form_02 div {
+    margin: 1em;
+}

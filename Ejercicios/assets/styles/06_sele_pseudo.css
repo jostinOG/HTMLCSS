@@ -1,0 +1,24 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box button {
+    width: 100px;
+    height: 100px;
+
+}
+
+.string:hover {
+    background-color: green;
+    color: white;
+}
+
+.string::before {
+    content: 'PASA POR ENCIMA'
+}
+
+.string:hover::before {
+    content: '¡Hecho!';
+}
